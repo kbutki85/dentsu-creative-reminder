@@ -9,12 +9,13 @@ Kamil Butkiewicz
 
 ## Installation
 
-1. Download the `dentsu-creative-reminder.zip` file
+1. Download the code from this GitHub repository:
+   - Click the green "Code" button at the top of the repository page
+   - Select "Download ZIP" to download the code as a ZIP archive
+   - or use the command `git clone https://github.com/kbutki85/dentsu-creative-reminder.git` in your terminal
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable "Developer mode" (top right corner)
-4. Drag and drop the downloaded .zip file onto the extensions page
-   or
-   Click "Load unpacked" and select the unzipped folder
+4. Click "Load unpacked" and select the folder with the downloaded code
 
 ## Features
 
