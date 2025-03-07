@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Dentsu Creative Reminder",
+  "version": "1.0.0",
+  "description": "Professional time management reminder for Dentsu employees, developed by Dentsu Creative team",
+  "author": "Kamil Butkiewicz",
+  "permissions": [
+    "storage",
+    "notifications",
+    "alarms",
+    "tabs"
+  ],
+  "web_accessible_resources": [{
+    "resources": ["icons/icon16.png", "icons/icon48.png", "reminder.html", "reminder.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "host_permissions": [
+    "https://dentsu-poland.atlassian.net/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png"
+  }
+}

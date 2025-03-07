@@ -1,0 +1,12 @@
+{
+  "name": "dentsu-creative-reminder",
+  "version": "1.0.0",
+  "description": "Time logging reminder for Dentsu employees, developed by Dentsu Creative team",
+  "author": "Kamil Butkiewicz",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilbutkiewicz/dentsu-creative-reminder"
+  },
+  "license": "MIT"
+} 
